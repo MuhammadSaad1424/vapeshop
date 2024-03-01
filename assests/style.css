@@ -1,0 +1,102 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.poppins-regular{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .background-dark{
+    background-color: #020100;
+  }
+  .background-red{
+    background-color: #FF5252;
+  }
+  .search-bar{
+    width: 100%;
+    border: 2px solid silver;
+    border-radius: 20px;
+  }
+
+  .location{
+    width: 150px;
+    height: 40px;
+    display: block;
+  }
+  .location-icon{
+    margin-top: 12px;
+  }
+
+ .red-clr{
+  color: #FF5252;
+ }
+
+ .quit-smoking-txt{
+  font-size: 40px;
+ }
+
+ .let-vaping-txt h3{
+  font-size: 30px;
+  text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff;
+ }
+
+ .grey-clr{
+  color: #AEACAC;
+ }
+
+ .product-box-1{
+  width: 300px;
+  height: 350px;
+  background-color: #1C1C1C;
+ }
+
+ .product-box-pic-1{
+  width: 100%;
+ }
+ /* .product-box-pic{
+  width: 100%;
+  height:100%;
+ } */
+ .product-box-pic img{
+  width: 100%;
+  height: 100%;
+ }
+
+.background-black{
+  background-color: #1C1C1C;
+}
+
+.product-box{
+  border-radius: 20px;
+}
+  /* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .location-btn{
+    margin-top: 10px;
+  }
+  .icon-main{
+    margin-top: 10px;
+  }
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
+
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */
+
+
+ 
+

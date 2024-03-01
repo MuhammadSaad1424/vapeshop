@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!----------------------------------------------- css link  ----------------------------------------------->
+    <link rel="stylesheet" href="/assests/style.css" />
+    <!----------------------------------------------- font family cdn  ----------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!---------------------------------------- fontawesom cdn  ----------------------------------------->
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!----------------------------------------------- title   ----------------------------------------------->
+    <title>VAPE STORE</title>
+  </head>
+  <body>
+    <!----------------------------------- nav bar started ----------------------------------->
+    <section class="background-dark">
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="#">Navbar</a>
+              <button
+                class="navbar-toggler background-red"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-md-5">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active text-white"
+                      aria-current="page"
+                      href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <div class="search-bar d-flex justify-content-between">
+                      <form class="">
+                        <input
+                          class="form-control bg-transparent border-0 search-bar-input"
+                          type="search"
+                          placeholder="Search"
+                          aria-label="Search"
+                        />
+                      </form>
+                      <button class="btn text-white" type="submit">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="dropdown">
+                      <button
+                        class="btn background-red rounded-pill"
+                        type="button"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Dropdown button
+                      </button>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton1"
+                      >
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Another action</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Something else here</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item mt-sm-2 mt-0">
+                    <div class="icon-main d-flex gap-3 align-items-center">
+                      <div class="user-login">
+                        <a href=""
+                          ><i
+                            class="fa fa-user text-white fs-3"
+                            aria-hidden="true"
+                          ></i
+                        ></a>
+                      </div>
+                      <div class="heart-icon">
+                        <a href=""
+                          ><i
+                            class="fa fa-heart text-white fs-3"
+                            aria-hidden="true"
+                          ></i
+                        ></a>
+                      </div>
+                      <div class="cart-icon">
+                        <a href=""
+                          ><i
+                            class="fa fa-shopping-cart fs-3 text-white"
+                            aria-hidden="true"
+                          ></i
+                        ></a>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="background-dark">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <div class="title">
+            <a href="" class="text-decoration-none">
+              <h5 class="text-white mt-3">Vape Dash</h5></a
+            >
+          </div>
+          <div class="">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+              <div class="container-fluid">
+                <button
+                  class="navbar-toggler bg-danger"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav gap-md-5">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active text-white"
+                        aria-current="page"
+                        href="#"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <div class="search-bar d-flex">
+                        <form class="">
+                          <input
+                            class="form-control bg-transparent border-0 search-bar-input"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search"
+                          />
+                        </form>
+                        <button class="btn text-white" type="submit">
+                          <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <button
+                        class="background-red border-0 rounded-pill location-btn px-2"
+                      >
+                        <div
+                          class="location d-flex justify-content-between text-center"
+                        >
+                          <p class="mt-2 text-white">New York</p>
+                          <i
+                            class="fa fa-map-marker location-icon text-white"
+                            aria-hidden="true"
+                          ></i>
+                        </div>
+                      </button>
+                    </li>
+                    <li class="nav-item mt-sm-2 mt-0">
+                      <div class="icon-main d-flex gap-3 align-items-center">
+                        <div class="user-login">
+                          <a href=""
+                            ><i
+                              class="fa fa-user text-white fs-3"
+                              aria-hidden="true"
+                            ></i
+                          ></a>
+                        </div>
+                        <div class="heart-icon">
+                          <a href=""
+                            ><i
+                              class="fa fa-heart text-white fs-3"
+                              aria-hidden="true"
+                            ></i
+                          ></a>
+                        </div>
+                        <div class="cart-icon">
+                          <a href=""
+                            ><i
+                              class="fa fa-shopping-cart fs-3 text-white"
+                              aria-hidden="true"
+                            ></i
+                          ></a>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!----------------------------------- nav bar ended ----------------------------------->
+
+    <!--------------------------------------- hero section started --------------------------------------->
+    <section class="background-dark">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 col-12 text-center">
+            <p class="text-white my-3">Upgrade Your LifeStyle</p>
+            <h1 class="red-clr quit-smoking-txt">Quit Smoking</h1>
+            <div class="let-vaping-txt">
+              <h3 class="text-dark">Let's Vaping</h3>
+            </div>
+            <p class="text-white my-3">
+              We are Significantly less harmful than smoking
+            </p>
+            <button class="background-red border-0 rounded-pill px-5 py-2">
+              Shop now
+            </button>
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="hero-img">
+              <img
+                src="/assests/images/_a655346c-5146-43fd-a472-bde941b13c6a.svg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------------------------- hero section ended --------------------------------------->
+
+    <!------------------------------- product section started ------------------------------->
+
+    <section class="background-dark py-5">
+      <div class="container">
+        <h1 class="text-center text-white py-5">Our Product</h1>
+        <div class="row">
+          <div class="col-12 col-md-3">
+            <div class="background-black product-box p-4">
+              <div class="d-flex align-items-center">
+                <div>
+                  <h4 class="text-white">Product Name</h4>
+                  <p class="grey-clr">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+                  </p>
+                  <h4 class="text-white">09.99$</h4>
+                </div>
+                <div>
+                  <div class="product-box-pic">
+                    <img
+                      src="/assests/images/kisspng-mini-cooper-electronic-cigarette-watt-vaporizer-vape-5ace53ebc392b8.4987904915234713398011.svg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-danger rounded-pill px-3 py-2 text-center">
+                Shop Now
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <div class="background-black product-box p-4">
+              <div class="row align-items-center">
+              <div class="col-6">
+                <div class="">
+                  <h4 class="text-white">Product Name</h4>
+                  <p class="grey-clr">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+                  </p>
+                  <h4 class="text-white">09.99$</h4>
+                </div>
+              </div>
+
+                <div class="col-6">
+                  <div class="product-box-pic">
+                    <img
+                      src="/assests/images/kisspng-mini-cooper-electronic-cigarette-watt-vaporizer-vape-5ace53ebc392b8.4987904915234713398011.svg"
+                      alt="" class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-danger rounded-pill px-3 py-2 text-center">
+                Shop Now
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="background-black product-box p-3">
+              <div class="d-flex align-items-center">
+                <div class="">
+                  <h4 class="text-white">Product Name</h4>
+                  <p class="grey-clr">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Pariatur tempore officiis laudantium rerum quo odio!
+                  </p>
+                  <h4 class="text-white">09.99$</h4>
+                  <button
+                    class="btn background-red rounded-pill px-4 py-2 text-white"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+                <div class="product-box-pic-1">
+                  <img src="/assests/images/klipartz.com.svg" alt="" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------- product section ended ------------------------------->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
