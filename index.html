@@ -31,6 +31,40 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
+    <!-------------------------------------------- Slik Slider CDN ------------------------------------>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!---------------- OWL Carousal CDN -------------->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!----------------------------------------------- title   ----------------------------------------------->
     <title>VAPE STORE</title>
   </head>
@@ -85,7 +119,7 @@
                     </div>
                   </li>
                   <li class="nav-item">
-                    <div class="dropdown">
+                    <div class="dropdown mt-md-0 mt-lg-0 mt-2">
                       <button
                         class="btn background-red rounded-pill"
                         type="button"
@@ -114,7 +148,10 @@
                   <li class="nav-item mt-sm-2 mt-0">
                     <div class="icon-main d-flex gap-3 align-items-center">
                       <div class="user-login">
-                        <a href=""
+                        <a
+                          href=""
+                          data-bs-toggle="modal"
+                          data-bs-target="#staticBackdrop"
                           ><i
                             class="fa fa-user text-white fs-3"
                             aria-hidden="true"
@@ -146,111 +183,6 @@
         </div>
       </div>
     </section>
-
-    <!-- <section class="background-dark">
-      <div class="container">
-        <div class="d-flex justify-content-between">
-          <div class="title">
-            <a href="" class="text-decoration-none">
-              <h5 class="text-white mt-3">Vape Dash</h5></a
-            >
-          </div>
-          <div class="">
-            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-              <div class="container-fluid">
-                <button
-                  class="navbar-toggler bg-danger"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarNav"
-                  aria-controls="navbarNav"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav gap-md-5">
-                    <li class="nav-item">
-                      <a
-                        class="nav-link active text-white"
-                        aria-current="page"
-                        href="#"
-                        >Home</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                      <div class="search-bar d-flex">
-                        <form class="">
-                          <input
-                            class="form-control bg-transparent border-0 search-bar-input"
-                            type="search"
-                            placeholder="Search"
-                            aria-label="Search"
-                          />
-                        </form>
-                        <button class="btn text-white" type="submit">
-                          <i class="fa fa-search" aria-hidden="true"></i>
-                        </button>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <button
-                        class="background-red border-0 rounded-pill location-btn px-2"
-                      >
-                        <div
-                          class="location d-flex justify-content-between text-center"
-                        >
-                          <p class="mt-2 text-white">New York</p>
-                          <i
-                            class="fa fa-map-marker location-icon text-white"
-                            aria-hidden="true"
-                          ></i>
-                        </div>
-                      </button>
-                    </li>
-                    <li class="nav-item mt-sm-2 mt-0">
-                      <div class="icon-main d-flex gap-3 align-items-center">
-                        <div class="user-login">
-                          <a href=""
-                            ><i
-                              class="fa fa-user text-white fs-3"
-                              aria-hidden="true"
-                            ></i
-                          ></a>
-                        </div>
-                        <div class="heart-icon">
-                          <a href=""
-                            ><i
-                              class="fa fa-heart text-white fs-3"
-                              aria-hidden="true"
-                            ></i
-                          ></a>
-                        </div>
-                        <div class="cart-icon">
-                          <a href=""
-                            ><i
-                              class="fa fa-shopping-cart fs-3 text-white"
-                              aria-hidden="true"
-                            ></i
-                          ></a>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </section> -->
     <!----------------------------------- nav bar ended ----------------------------------->
 
     <!--------------------------------------- hero section started --------------------------------------->
@@ -290,35 +222,28 @@
       <div class="container">
         <h1 class="text-center text-white py-5">Our Product</h1>
         <div class="row">
-          <div class="col-12 col-md-3">
-            <div class="background-black product-box p-4">
-              <div class="d-flex align-items-center">
-                <div>
-                  <h4 class="text-white">Product Name</h4>
-                  <p class="grey-clr">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr
-                  </p>
-                  <h4 class="text-white">09.99$</h4>
-                </div>
-                <div>
-                  <div class="product-box-pic">
-                    <img
-                      src="/assests/images/kisspng-mini-cooper-electronic-cigarette-watt-vaporizer-vape-5ace53ebc392b8.4987904915234713398011.svg"
-                      class="img-fluid"
-                      alt=""
-                    />
-                  </div>
-                </div>
-              </div>
-              <button class="btn btn-danger rounded-pill px-3 py-2 text-center">
-                Shop Now
-              </button>
-            </div>
-          </div>
-          <div class="col-12 col-md-3">
+          <div class="col-12 col-lg-3 col-md-6 mt-3">
             <div class="background-black product-box p-4">
               <div class="row align-items-center">
-              <div class="col-6">
+                <div class="col-7">
+                  <div class="">
+                    <h4 class="text-white">Product Name</h4>
+                    <p class="grey-clr">
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+                    </p>
+                    <h4 class="text-white">09.99$</h4>
+                    <button class="btn btn-danger rounded-pill px-3 py-2 mt-4 text-center">
+                      Shop Now
+                    </button>
+                  </div>
+                </div>
+                <div class="col-5">
+                  <div class="vape-product">
+                    <img src="/assests/images/vape-product.png" class="img-fluid" alt="Vape Product">
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="d-flex gap-2 align-items-center">
                 <div class="">
                   <h4 class="text-white">Product Name</h4>
                   <p class="grey-clr">
@@ -326,40 +251,405 @@
                   </p>
                   <h4 class="text-white">09.99$</h4>
                 </div>
-              </div>
-
-                <div class="col-6">
+                <div class="">
                   <div class="product-box-pic">
                     <img
-                      src="/assests/images/kisspng-mini-cooper-electronic-cigarette-watt-vaporizer-vape-5ace53ebc392b8.4987904915234713398011.svg"
-                      alt="" class="img-fluid"
+                      src="/assests/images/vape-product.png"
+                      class="img-fluid"
+                      alt="img-fluid"
                     />
                   </div>
                 </div>
               </div>
               <button class="btn btn-danger rounded-pill px-3 py-2 text-center">
                 Shop Now
-              </button>
+              </button> -->
             </div>
           </div>
-          <div class="col-md-6 col-12">
-            <div class="background-black product-box p-3">
-              <div class="d-flex align-items-center">
+          <div class="col-12 col-lg-3 col-md-6 mt-3">
+            <div class="background-black product-box p-4">
+              <div class="row align-items-center">
+                <div class="col-7">
+                  <div class="">
+                    <h4 class="text-white">Product Name</h4>
+                    <p class="grey-clr">
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+                    </p>
+                    <h4 class="text-white">09.99$</h4>
+                    <button class="btn btn-danger rounded-pill px-3 py-2 mt-4 text-center">
+                      Shop Now
+                    </button>
+                  </div>
+                </div>
+                <div class="col-5">
+                  <div class="vape-product">
+                    <img src="/assests/images/vape-product.png" class="img-fluid" alt="Vape Product">
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+         
+          <div class="col-lg-6 col-md-12 col-12 mt-3">
+            <div class="background-black product-box-1 product-box-3 p-4">
+              <div class="row gy-3 pt-4 align-items-center">
+                <div class="col-md-6 col-12">
+                  <div class="">
+                    <h4 class="text-white">Product Name</h4>
+                    <p class="grey-clr">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Pariatur tempore officiis laudantium rerum quo odio!
+                    </p>
+                    <h4 class="text-white">09.99$</h4>
+                    <button
+                      class="btn background-red rounded-pill px-4 py-2 mt-4 text-white"
+                    >
+                      Shop Now
+                    </button>
+                  </div>
+                </div>
+                <div class="col-md-6 col-12">
+                  <div class="product-picture">
+                    <img
+                      src="https://images.unsplash.com/photo-1530745342582-0795f23ec976?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-12 mt-3">
+            <div class="background-black product-box-1 product-box-3 p-4">
+              <div class="row gy-3 align-items-center pt-3">
+                <div class="col-md-6 col-12">
+                  <div class="">
+                    <h4 class="text-white">Product Name</h4>
+                    <p class="grey-clr">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Pariatur tempore officiis laudantium rerum quo odio!
+                    </p>
+                    <h4 class="text-white">09.99$</h4>
+                    <button
+                      class="btn background-red rounded-pill px-4 py-2 mt-4 text-white"
+                    >
+                      Shop Now
+                    </button>
+                  </div>
+                </div>
+                <div class="col-md-6 col-12">
+                  <div class="product-picture">
+                    <img
+                      src="https://images.unsplash.com/photo-1530745342582-0795f23ec976?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-6 mt-3">
+            <div class="background-black product-box p-4">
+              <div class="row align-items-center">
+                <div class="col-7">
+                  <div class="">
+                    <h4 class="text-white">Product Name</h4>
+                    <p class="grey-clr">
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+                    </p>
+                    <h4 class="text-white">09.99$</h4>
+                    <button class="btn btn-danger rounded-pill px-3 py-2 mt-4 text-center">
+                      Shop Now
+                    </button>
+                  </div>
+                </div>
+                <div class="col-5">
+                  <div class="vape-product">
+                    <img src="/assests/images/vape-product.png" class="img-fluid" alt="Vape Product">
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 col-md-6 mt-3">
+            <div class="background-black product-box p-4">
+              <div class="row align-items-center">
+                <div class="col-7">
+                  <div class="">
+                    <h4 class="text-white">Product Name</h4>
+                    <p class="grey-clr">
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+                    </p>
+                    <h4 class="text-white">09.99$</h4>
+                    <button class="btn btn-danger rounded-pill px-3 py-2 mt-4 text-center">
+                      Shop Now
+                    </button>
+                  </div>
+                </div>
+                <div class="col-5">
+                  <div class="vape-product">
+                    <img src="/assests/images/vape-product.png" class="img-fluid" alt="Vape Product">
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+    </section>
+
+    <!------------------------------- product section ended ------------------------------->
+
+    <!------------------------------------------------- about section started ------------------------------------------------->
+
+    <section class="background-dark py-5">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-lg-6 col-12">
+            <div class="about-box position-relative">
+              <div class="about-box-pic position-absolute">
+                <img
+                  src="/assests/images/man-vaping-electronic-cigarette.svg"
+                  alt="img-fluid"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 background-dark mt-5">
+            <h4 class="text-white">About Our</h4>
+            <h3 class="text-white">Smoke Devices</h3>
+            <p class="text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+              provident, soluta, illum tempora, blanditiis quam nesciunt numquam
+              repudiandae eligendi dolorem ea fugiat qui suscipit. Autem sequi
+              aspernatur officiis quasi fugit minima animi ea tempora natus quam
+              fugiat vitae quos blanditiis veritatis facere nam impedit odio
+              dolores, illo totam. A sunt id similique laborum repudiandae! Iure
+              quasi suscipit tenetur perferendis eveniet aliquid. Culpa, dolore
+              eos? Rem, excepturi! Ea cum placeat mollitia ad, aliquam saepe
+              totam consectetur odio dolor id quis culpa tenetur unde sapiente
+              amet aliquid ipsum hic minima iusto, ex distinctio officiis natus
+              rem illum. Cumque modi alias expedita non!
+            </p>
+            <button
+              class="background-red border-0 px-3 py-2 rounded-pill text-white mt-5"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------------------- about section ended ------------------------------------------------->
+
+    <!--------------------------------------- new arrival section started --------------------------------------->
+
+    <section class="py-5 px-2 bg-dark">
+      <div class="container">
+        <h1 class="text-white text-center fw-bold pb-4">New Arrivals</h1>
+        <div class="row slider">
+          <div class="col-md-12">
+            <div class="item">
+              <div class="bg-white text-center px-4 py-3 rounded-3 mx-1">
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="new-arrival-pictures">
+                    <img
+                      src="/assests/images/kisspng-mini-cooper-electronic-cigarette-watt-vaporizer-vape-5ace53ebc392b8.4987904915234713398011.svg"
+                      alt="img-fluid"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
                 <div class="">
-                  <h4 class="text-white">Product Name</h4>
-                  <p class="grey-clr">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Pariatur tempore officiis laudantium rerum quo odio!
+                  <h3>Your Title</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus, cumque.
                   </p>
-                  <h4 class="text-white">09.99$</h4>
+                  <h2>09.99$</h2>
                   <button
-                    class="btn background-red rounded-pill px-4 py-2 text-white"
+                    class="background-red border-0 px-3 py-2 rounded-pill text-white mt-3"
                   >
                     Shop Now
                   </button>
                 </div>
-                <div class="product-box-pic-1">
-                  <img src="/assests/images/klipartz.com.svg" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="item">
+              <div class="bg-white text-center px-4 py-3 rounded-3 mx-1">
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="new-arrival-pictures">
+                    <img
+                      src="/assests/images/klipartz.com.svg"
+                      alt="img-fluid"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="">
+                  <h3>Your Title</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus, cumque.
+                  </p>
+                  <h2>09.99$</h2>
+                  <button
+                    class="background-red border-0 px-3 py-2 rounded-pill text-white mt-3"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="item">
+              <div class="bg-white text-center px-4 py-3 rounded-3 mx-1">
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="new-arrival-pictures">
+                    <img
+                      src="/assests/images/klipartz.com.svg"
+                      alt="img-fluid"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="">
+                  <h3>Your Title</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus, cumque.
+                  </p>
+                  <h2>09.99$</h2>
+                  <button
+                    class="background-red border-0 px-3 py-2 rounded-pill text-white mt-3"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="item">
+              <div class="bg-white text-center px-4 py-3 rounded-3 mx-1">
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="new-arrival-pictures">
+                    <img
+                      src="/assests/images/klipartz.com.svg"
+                      alt="img-fluid"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="">
+                  <h3>Your Title</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus, cumque.
+                  </p>
+                  <h2>09.99$</h2>
+                  <button
+                    class="background-red border-0 px-3 py-2 rounded-pill text-white mt-3"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="item">
+              <div class="bg-white text-center px-4 py-3 rounded-3 mx-1">
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="new-arrival-pictures">
+                    <img
+                      src="/assests/images/klipartz.com.svg"
+                      alt="img-fluid"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="">
+                  <h3>Your Title</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus, cumque.
+                  </p>
+                  <h2>09.99$</h2>
+                  <button
+                    class="background-red border-0 px-3 py-2 rounded-pill text-white mt-3"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="item">
+              <div class="bg-white text-center px-4 py-3 rounded-3 mx-1">
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="new-arrival-pictures">
+                    <img
+                      src="/assests/images/klipartz.com.svg"
+                      alt="img-fluid"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="">
+                  <h3>Your Title</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus, cumque.
+                  </p>
+                  <h2>09.99$</h2>
+                  <button
+                    class="background-red border-0 px-3 py-2 rounded-pill text-white mt-3"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="item">
+              <div class="bg-white text-center px-4 py-3 rounded-3 mx-1">
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="new-arrival-pictures">
+                    <img
+                      src="/assests/images/klipartz.com.svg"
+                      alt="img-fluid"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="">
+                  <h3>Your Title</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus, cumque.
+                  </p>
+                  <h2>09.99$</h2>
+                  <button
+                    class="background-red border-0 px-3 py-2 rounded-pill text-white mt-3"
+                  >
+                    Shop Now
+                  </button>
                 </div>
               </div>
             </div>
@@ -368,7 +658,555 @@
       </div>
     </section>
 
-    <!------------------------------- product section ended ------------------------------->
+    <!--------------------------------------- new arrival section ended --------------------------------------->
+
+    <!--------------------------------- favorite vape section started --------------------------------->
+    <section class="fav-background-picture">
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="col-6 text-white d-flex justify-content-center align-items-center"
+          >
+            <div class="p-md-0 p-lg-0 p-2">
+              <h1 class="">
+                Buy Your <br />
+                favorite Vape <br />
+                in best Prices
+              </h1>
+              <button
+                class="btn background-red rounded-pill text-white px-3 py-2"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+          <div class="col-6 d-flex justify-content-center">
+            <div class="fav-picture py-2">
+              <img
+                src="/assests/images/klipartz.com (1).svg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------------------- favorite vape section ended --------------------------------->
+
+    <!---------------------------- Features section started ---------------------------->
+    <section class="background-dark py-5">
+      <div class="container">
+        <h1 class="text-white text-center">Featured Products</h1>
+        <div class="row slider">
+          <div class="col-md-12">
+            <div class="item">
+              <div class="bg-white text-center px-4 py-3 rounded-3 mx-1">
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="new-arrival-pictures">
+                    <img
+                      src="/assests/images/kisspng-mini-cooper-electronic-cigarette-watt-vaporizer-vape-5ace53ebc392b8.4987904915234713398011.svg"
+                      alt="img-fluid"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="">
+                  <h3>Your Title</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus, cumque.
+                  </p>
+                  <h2>09.99$</h2>
+                  <button
+                    class="background-red border-0 px-3 py-2 rounded-pill text-white mt-3"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="item">
+              <div class="bg-white text-center px-4 py-3 rounded-3 mx-1">
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="new-arrival-pictures">
+                    <img
+                      src="/assests/images/kisspng-mini-cooper-electronic-cigarette-watt-vaporizer-vape-5ace53ebc392b8.4987904915234713398011.svg"
+                      alt="img-fluid"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="">
+                  <h3>Your Title</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus, cumque.
+                  </p>
+                  <h2>09.99$</h2>
+                  <button
+                    class="background-red border-0 px-3 py-2 rounded-pill text-white mt-3"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="item">
+              <div class="bg-white text-center px-4 py-3 rounded-3 mx-1">
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="new-arrival-pictures">
+                    <img
+                      src="/assests/images/kisspng-mini-cooper-electronic-cigarette-watt-vaporizer-vape-5ace53ebc392b8.4987904915234713398011.svg"
+                      alt="img-fluid"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="">
+                  <h3>Your Title</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus, cumque.
+                  </p>
+                  <h2>09.99$</h2>
+                  <button
+                    class="background-red border-0 px-3 py-2 rounded-pill text-white mt-3"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="item">
+              <div class="bg-white text-center px-4 py-3 rounded-3 mx-1">
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="new-arrival-pictures">
+                    <img
+                      src="/assests/images/kisspng-mini-cooper-electronic-cigarette-watt-vaporizer-vape-5ace53ebc392b8.4987904915234713398011.svg"
+                      alt="img-fluid"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="">
+                  <h3>Your Title</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus, cumque.
+                  </p>
+                  <h2>09.99$</h2>
+                  <button
+                    class="background-red border-0 px-3 py-2 rounded-pill text-white mt-3"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="item">
+              <div class="bg-white text-center px-4 py-3 rounded-3 mx-1">
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="new-arrival-pictures">
+                    <img
+                      src="/assests/images/kisspng-mini-cooper-electronic-cigarette-watt-vaporizer-vape-5ace53ebc392b8.4987904915234713398011.svg"
+                      alt="img-fluid"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="">
+                  <h3>Your Title</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus, cumque.
+                  </p>
+                  <h2>09.99$</h2>
+                  <button
+                    class="background-red border-0 px-3 py-2 rounded-pill text-white mt-3"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="item">
+              <div class="bg-white text-center px-4 py-3 rounded-3 mx-1">
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="new-arrival-pictures">
+                    <img
+                      src="/assests/images/kisspng-mini-cooper-electronic-cigarette-watt-vaporizer-vape-5ace53ebc392b8.4987904915234713398011.svg"
+                      alt="img-fluid"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="">
+                  <h3>Your Title</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus, cumque.
+                  </p>
+                  <h2>09.99$</h2>
+                  <button
+                    class="background-red border-0 px-3 py-2 rounded-pill text-white mt-3"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="item">
+              <div class="bg-white text-center px-4 py-3 rounded-3 mx-1">
+                <div class="d-flex justify-content-center align-items-center">
+                  <div class="new-arrival-pictures">
+                    <img
+                      src="/assests/images/kisspng-mini-cooper-electronic-cigarette-watt-vaporizer-vape-5ace53ebc392b8.4987904915234713398011.svg"
+                      alt="img-fluid"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="">
+                  <h3>Your Title</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus, cumque.
+                  </p>
+                  <h2>09.99$</h2>
+                  <button
+                    class="background-red border-0 px-3 py-2 rounded-pill text-white mt-3"
+                  >
+                    Shop Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------------------------- Features section ended ---------------------------->
+
+    <!----------------------------------- client says section started ----------------------------------->
+    <section class="background-dark">
+      <div class="container">
+        <h1 class="text-white text-center py-5">What Our Client Says</h1>
+        <div class="row py-5">
+          <div class="col-md-6 col-lg-3 col-12 client-box">
+            <div class="bg-white p-3 border rounded-3">
+              <div class="d-flex justify-content-center">
+                <div class="client-box-pic">
+                  <img
+                    src="/assests/images/portrait-man-laughing_23-2148859448.avif"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <div class="client-box-content text-center">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Voluptates ad, laudantium quia ex harum totam consequuntur
+                  assumenda incidunt porro quisquam! Sapiente reprehenderit
+                  pariatur eius excepturi aspernatur doloremque incidunt quis
+                  hic!
+                </p>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 col-12 client-box">
+            <div class="bg-white p-3 border rounded-3">
+              <div class="d-flex justify-content-center">
+                <div class="client-box-pic">
+                  <img
+                    src="/assests/images/portrait-serious-young-businessman-glasses_1262-3810.avif"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <div class="client-box-content text-center">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Voluptates ad, laudantium quia ex harum totam consequuntur
+                  assumenda incidunt porro quisquam! Sapiente reprehenderit
+                  pariatur eius excepturi aspernatur doloremque incidunt quis
+                  hic!
+                </p>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 col-12 client-box">
+            <div class="bg-white p-3 border rounded-3">
+              <div class="d-flex justify-content-center">
+                <div class="client-box-pic">
+                  <img
+                    src="/assests/images/smiling-happy-woman-wearing-denim-jacket-white-shirt_176532-10378.avif"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <div class="client-box-content text-center">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Voluptates ad, laudantium quia ex harum totam consequuntur
+                  assumenda incidunt porro quisquam! Sapiente reprehenderit
+                  pariatur eius excepturi aspernatur doloremque incidunt quis
+                  hic!
+                </p>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 col-12 client-box">
+            <div class="bg-white p-3 border rounded-3">
+              <div class="d-flex justify-content-center">
+                <div class="client-box-pic">
+                  <img
+                    src="/assests/images/young-bearded-man-with-striped-shirt_273609-5677.avif"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <div class="client-box-content text-center">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Voluptates ad, laudantium quia ex harum totam consequuntur
+                  assumenda incidunt porro quisquam! Sapiente reprehenderit
+                  pariatur eius excepturi aspernatur doloremque incidunt quis
+                  hic!
+                </p>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+                <i class="fa fa-star fs-2 text-warning" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----------------------------------- client says section ended ----------------------------------->
+
+    <!---------------------------- subscribe section started ---------------------------->
+    <section class="background-dark">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-12">
+            <div class="">
+              <h1 class="text-white">Subscribe to our emails</h1>
+              <p class="grey-clr">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi,
+                doloremque.
+              </p>
+            </div>
+            <div class="d-flex gap-3">
+              <input
+                type="text"
+                class="form-control bg-transparent rounded-pill"
+                placeholder="Email"
+              />
+              <button
+                class="btn px-5 py-3 background-red rounded-pill text-white"
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="newsletter-pic">
+              <img src="/assests/images/newsletter-man.svg" alt="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------------------------- subscribe section ended ---------------------------->
+
+    <!-- footer section started -->
+    <section class="background-black">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-6 p-md-5 p-lg-5 p-3">
+              <div class="text-white">
+                <h3>Vape Dash</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Maxime quam eveniet optio minus obcaecati voluptatem
+                  temporibus fugit vel rem tempora!
+                </p>
+              </div>
+              <div class="social-media">
+                <div class="text-white d-flex gap-5 fs-3">
+                  <a href="" class="text-decoration-none text-white"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                  <a href="" class="text-decoration-none text-white"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                  <a href="" class="text-decoration-none text-white"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 p-md-5 p-lg-5 p-3">
+              <div class="text-white">
+                <h3>Quick Links</h3>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#" class="text-decoration-none text-white">Shop</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-white">Shop</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-white">Shop</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-white">Shop</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 p-md-5 p-lg-5 p-3">
+              <div class="text-white">
+                <h3>Our Products</h3>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#" class="text-decoration-none text-white">Shop</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-white">Shop</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-white">Shop</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-6 p-md-5 p-lg-5 p-3">
+              <div class="text-white">
+                <h3>Support</h3>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#" class="text-decoration-none text-white">Shop</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-white">Shop</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <section class="background-dark py-3">
+      <p class="text-center m-0 text-white">&copy; 2023 Vlinq All Rights Reserved.</p>
+    </section>
+    <!-- footer section ended -->
+
+    <!------------------------------------ Modal ----------------------------------------->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="container">
+          <div class="row">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="d-flex justify-content-between">
+                 <div class="">
+                  <h4>Sign Up</h4>
+                  <p>Please Sign Up to create your account</p>
+                 </div>
+                  <div class="">
+                    <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-body">
+                <div class="d-flex gap-3 align-items-center">
+                  <i class="fa fa-user-o" aria-hidden="true"></i>
+                  <input type="text" class="form-control bg-transparent rounded-pill" placeholder="Full Name">
+                </div>
+                <div class="d-flex gap-3 align-items-center mt-3">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <input type="text" class="form-control bg-transparent rounded-pill" placeholder="Mail">
+                </div>
+                <div class="d-flex gap-3 align-items-center mt-3">
+                  <i class="fa fa-lock" aria-hidden="true"></i>
+                  <input type="text" class="form-control bg-transparent rounded-pill" placeholder="Password">
+                </div>
+                <div class="d-flex gap-3 align-items-center mt-3">
+                  <i class="fa fa-lock" aria-hidden="true"></i>
+                  <input type="text" class="form-control bg-transparent rounded-pill" placeholder="Confirm Password">
+                </div>
+                <div class="form-check mt-3">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Remember Me
+                  </label>
+                </div>
+                <div class="">
+                  <button class="btn modal-btn background-red rounded-pill">Sign Up</button>
+                  <p class="grey-clr">Already have an account <a href="" class="text-danger">Logn in</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -384,5 +1222,100 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
+    <!---------------- OWL Carousal JS -------------->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        arrow: true,
+        nav: false,
+        dots: true,
+        autoplay: false,
+        autoplayTimeout: 2000,
+        stagePadding: 0,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          800: {
+            items: 1,
+          },
+
+          1000: {
+            items: 1,
+          },
+          1400: {
+            items: 4,
+          },
+        },
+      });
+    </script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      $(".slider").slick({
+        dots: false,
+        arrows: true,
+        infinite: true,
+        autoplay: true,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        // prevArrow:
+        //   "<h1>hellooooo</h1>",
+        // nextArrow:
+        //   "<button type='button' class='slick-next pull-right'><i class='fa fa-long-arrow-right' aria-hidden='true'></i></button>",
+
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 4,
+              infinite: true,
+              dots: true,
+              arrows: false,
+            },
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: false,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: false,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+    </script>
   </body>
 </html>

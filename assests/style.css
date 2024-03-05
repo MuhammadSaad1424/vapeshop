@@ -1,102 +1,236 @@
-body{
-    padding: 0%;
-    margin: 0%;
+body {
+  padding: 0%;
+  margin: 0%;
+  /* background: white; */
 }
-.poppins-regular{
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .background-dark{
-    background-color: #020100;
-  }
-  .background-red{
-    background-color: #FF5252;
-  }
-  .search-bar{
-    width: 100%;
-    border: 2px solid silver;
-    border-radius: 20px;
-  }
-
-  .location{
-    width: 150px;
-    height: 40px;
-    display: block;
-  }
-  .location-icon{
-    margin-top: 12px;
-  }
-
- .red-clr{
-  color: #FF5252;
- }
-
- .quit-smoking-txt{
-  font-size: 40px;
- }
-
- .let-vaping-txt h3{
-  font-size: 30px;
-  text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff;
- }
-
- .grey-clr{
-  color: #AEACAC;
- }
-
- .product-box-1{
-  width: 300px;
-  height: 350px;
-  background-color: #1C1C1C;
- }
-
- .product-box-pic-1{
-  width: 100%;
- }
- /* .product-box-pic{
-  width: 100%;
-  height:100%;
- } */
- .product-box-pic img{
-  width: 100%;
-  height: 100%;
- }
-
-.background-black{
-  background-color: #1C1C1C;
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.background-dark {
+  background-color: #020100;
+}
+.background-red {
+  background-color: #ff5252;
 }
 
-.product-box{
+.background-black {
+  background-color: #1c1c1c;
+}
+.search-bar {
+  width: 100%;
+  border: 2px solid silver;
   border-radius: 20px;
 }
-  /* // X-Small devices (portrait phones, less than 576px) */
+
+.location {
+  width: 150px;
+  height: 40px;
+  display: block;
+}
+.location-icon {
+  margin-top: 12px;
+}
+
+.red-clr {
+  color: #ff5252;
+}
+
+.quit-smoking-txt {
+  font-size: 40px;
+}
+
+.let-vaping-txt h3 {
+  font-size: 30px;
+  text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff;
+}
+
+.grey-clr {
+  color: #aeacac;
+}
+
+.product-box-1 {
+  background-color: #1c1c1c;
+  border-radius: 20px;
+}
+
+.product-box-3 {
+  height: 350px;
+}
+
+.product-box-pic-1 {
+  width: 100%;
+}
+
+.product-box {
+  border-radius: 20px;
+}
+
+.vape-product {
+  height: 300px;
+  width: 100%;
+}
+
+.vape-product img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.product-box-pic{
+  width: 100px;
+  height: 285px;
+  
+}
+.product-box-pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.box {
+  width: 100%;
+  height: 320px;
+}
+
+.about-box {
+  height: 550px;
+  width: 600px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 30px;
+}
+
+.about-box-pic{
+  bottom: 7%;
+  left: -5%;
+  right: 5%;
+}
+
+.new-arrival-pictures{
+  height: 200px;
+  width: 200px;
+
+}
+.new-arrival-pictures img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* .product-picture {
+  height: 200px;
+  width: 250px;
+} */
+
+.product-picture img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.fav-background-picture{
+  background-image: url(/assests/images/gradient-smoke-bg.png);
+  object-fit: cover;
+}
+
+.fav-picture{
+  height: 320px;
+  width: 320px;
+}
+.fav-picture img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.client-box{
+  margin:0px;
+}
+
+.client-box-pic{
+  height: 280px;
+  width: 280px;
+  margin-top: -80px;
+  margin-bottom: 20px;
+}
+.client-box-pic img{
+  height: 100%;
+  width: 100%;
+  border-radius: 20PX;
+  object-fit: cover;
+}
+
+.newsletter-pic{
+  height: 600px;
+  width: 600px;
+}
+.newsletter-pic img{
+  height: 100%;
+  width: 100%;
+}
+
+
+.modal-btn{
+  width: 100%;
+  margin-top: 50px;
+}
+
+
+@media (min-width: 576px) {
+.modal-dialog {
+    max-width: 350px;
+    margin: 1.75rem auto;
+}
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .location-btn{
+  .location-btn {
     margin-top: 10px;
   }
-  .icon-main{
+  .icon-main {
     margin-top: 10px;
   }
- }
+  .fav-picture{
+    height: 170px;
+    width: 170px;
+  }
+  .client-box{
+    margin:40px 0px;
+  }
+  .newsletter-pic{
+    height: 300px;
+    width: 300px;
+  }
+}
 
 /* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
+@media (max-width: 767.98px) {
+  .about-box {
+    height: 250px;
+    width: 300px;
+   margin-left: 30px;
+  }
+  
+}
 
- }
 
 /* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { }
+@media (max-width: 991.98px) {
+  .client-box{
+    margin:40px 0px;
+  }
+}
 
 /* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {  }
+@media (max-width: 1199.98px) {
+}
 
 /* // X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {  }
+@media (max-width: 1399.98px) {
+}
 
 /* // XX-Large devices (larger desktops) */
 /* // No media query since the xxl breakpoint has no upper bound on its width */
-
-
- 
-
