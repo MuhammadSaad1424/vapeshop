@@ -282,15 +282,15 @@ tbody, td, tfoot, th, thead, tr {
     width: 300px;
   }
   .shopping-cart-box{
-    width: 80px;
-    height: 130px;
+    width: 75px;
+    height: 90px;
     margin-left: -17px;
     background-color: white;
     border-radius: 10px;
   }
   .shopping-cart-box-pic{
-    width: 70px;
-    height: 120px;
+    width: 65px;
+    height: 85px;
   }
   .shopping-cart-box-pic img{
     width: 100%;
@@ -299,6 +299,11 @@ tbody, td, tfoot, th, thead, tr {
   }
   .cart-content{
     display: none;
+  }
+  .item-count {
+    border: 0px solid #fff;
+    padding: 0px 0px;
+    border-radius: 5px;
   }
 }
 
