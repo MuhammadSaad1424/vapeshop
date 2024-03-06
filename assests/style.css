@@ -38,11 +38,11 @@ body {
 }
 
 .quit-smoking-txt {
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .let-vaping-txt h3 {
-  font-size: 30px;
+  font-size: 50px;
   text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff;
 }
 
@@ -78,10 +78,9 @@ body {
   object-fit: cover;
 }
 
-.product-box-pic{
+.product-box-pic {
   width: 100px;
   height: 285px;
-  
 }
 .product-box-pic img {
   width: 100%;
@@ -102,87 +101,165 @@ body {
   border-radius: 30px;
 }
 
-.about-box-pic{
+.about-box-pic {
   bottom: 7%;
   left: -5%;
   right: 5%;
 }
 
-.new-arrival-pictures{
+.new-arrival-pictures {
   height: 200px;
   width: 200px;
-
 }
-.new-arrival-pictures img{
+.new-arrival-pictures img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
 
-/* .product-picture {
-  height: 200px;
-  width: 250px;
-} */
-
-.product-picture img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-}
-
-.fav-background-picture{
+.fav-background-picture {
   background-image: url(/assests/images/gradient-smoke-bg.png);
   object-fit: cover;
 }
 
-.fav-picture{
+.fav-picture {
   height: 320px;
   width: 320px;
 }
-.fav-picture img{
+.fav-picture img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
 
-.client-box{
-  margin:0px;
+.client-box {
+  margin: 0px;
 }
 
-.client-box-pic{
+.client-box-pic {
   height: 280px;
   width: 280px;
   margin-top: -80px;
   margin-bottom: 20px;
 }
-.client-box-pic img{
+.client-box-pic img {
   height: 100%;
   width: 100%;
-  border-radius: 20PX;
+  border-radius: 20px;
   object-fit: cover;
 }
 
-.newsletter-pic{
+.newsletter-pic {
   height: 600px;
   width: 600px;
 }
-.newsletter-pic img{
+.newsletter-pic img {
   height: 100%;
   width: 100%;
 }
 
-
-.modal-btn{
+.modal-btn {
   width: 100%;
   margin-top: 50px;
 }
 
+.modal-content {
+ 
+/* From https://css.glass */
+background: rgba(199, 199, 199, 0.25) !important;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+backdrop-filter: blur(8.6px) !important;
+-webkit-backdrop-filter: blur(8.6px) !important;
+ 
+}
 
+.modal-body-content {
+  height: 90vh;
+}
+
+.shopping-cart-hr hr{
+  width: 100%;
+  height: 2px;
+  color: silver;
+  margin-top: -10px;
+}
+
+.shopping-cart-hr-1 hr{
+  width: 100%;
+  height: 2px;
+  color: silver;
+  margin-top: -17px;
+}
+.shopping-cart-hr-2 hr{
+  width: 100%;
+  height: 2px;
+  color: silver;
+  margin: 20px 0px;
+}
+
+.shopping-cart-box{
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border-radius: 20px;
+}
+
+.shopping-cart-box-pic{
+  width: 130px;
+  height: 130px;
+}
+.shopping-cart-box-pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cart-content{
+  display: block;
+}
+
+tbody, td, tfoot, th, thead, tr {
+  border-style: none;
+}
+
+.background-grey{
+  background-color: #212529;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.cart-toggle-btn{
+  width: 100%;
+  /* margin: 20px 0px; */
+  padding: 10px 20px;
+}
+.cart-toggle-btn P{
+  margin: 0%;
+}
+
+.item-count {
+  border: 1px solid #fff;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.chekout-btn{
+  width: 100%;
+  margin: 30px 0px;
+  padding: 10px 20px;
+}
+
+.shoppingcart-footer{
+  z-index: 99;
+  width: 100%;
+}
 @media (min-width: 576px) {
-.modal-dialog {
+  .modal-dialog {
     max-width: 350px;
     margin: 1.75rem auto;
-}
+  }
 }
 
 /* // X-Small devices (portrait phones, less than 576px) */
@@ -193,16 +270,35 @@ body {
   .icon-main {
     margin-top: 10px;
   }
-  .fav-picture{
+  .fav-picture {
     height: 170px;
     width: 170px;
   }
-  .client-box{
-    margin:40px 0px;
+  .client-box {
+    margin: 40px 0px;
   }
-  .newsletter-pic{
+  .newsletter-pic {
     height: 300px;
     width: 300px;
+  }
+  .shopping-cart-box{
+    width: 80px;
+    height: 130px;
+    margin-left: -17px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .shopping-cart-box-pic{
+    width: 70px;
+    height: 120px;
+  }
+  .shopping-cart-box-pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .cart-content{
+    display: none;
   }
 }
 
@@ -211,16 +307,14 @@ body {
   .about-box {
     height: 250px;
     width: 300px;
-   margin-left: 30px;
+    margin-left: 30px;
   }
-  
 }
-
 
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-  .client-box{
-    margin:40px 0px;
+  .client-box {
+    margin: 40px 0px;
   }
 }
 
