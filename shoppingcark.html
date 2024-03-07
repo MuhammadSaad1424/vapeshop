@@ -83,7 +83,7 @@
                       </div>
                     </div>
                   </th>
-                  <td class="justify-content-center">
+                  <td class="pt-5">
                     <button
                       onclick="removeItem()"
                       class="bg-transparent border-0 text-danger"
@@ -98,8 +98,8 @@
                       +
                     </button>
                   </td>
-                  <td>09.99$</td>
-                  <td>09.99$</td>
+                  <td class="pt-5">09.99$</td>
+                  <td class="pt-5">09.99$</td>
                 </tr>
                 <tr>
                   <th scope="row">
@@ -128,7 +128,7 @@
                       </div>
                     </div>
                   </th>
-                  <td>
+                  <td class="pt-5">
                     <button
                       onclick="removeItem()"
                       class="bg-transparent border-0 text-danger"
@@ -143,8 +143,8 @@
                       +
                     </button>
                   </td>
-                  <td>09.99$</td>
-                  <td>09.99$</td>
+                  <td class="pt-5">09.99$</td>
+                  <td class="pt-5">09.99$</td>
                 </tr>
                 <tr>
                   <th scope="row">
@@ -173,7 +173,7 @@
                       </div>
                     </div>
                   </th>
-                  <td>
+                  <td class="pt-5">
                     <button
                       onclick="removeItem()"
                       class="bg-transparent border-0 text-danger"
@@ -188,8 +188,8 @@
                       +
                     </button>
                   </td>
-                  <td>09.99$</td>
-                  <td>09.99$</td>
+                  <td class="pt-5">09.99$</td>
+                  <td class="pt-5">09.99$</td>
                 </tr>
                 <tr>
                   <th scope="row">
@@ -218,7 +218,7 @@
                       </div>
                     </div>
                   </th>
-                  <td>
+                  <td class="pt-5">
                     <button
                       onclick="removeItem()"
                       class="bg-transparent border-0 text-danger"
@@ -233,8 +233,8 @@
                       +
                     </button>
                   </td>
-                  <td>09.99$</td>
-                  <td>09.99$</td>
+                  <td class="pt-5">09.99$</td>
+                  <td class="pt-5">09.99$</td>
                 </tr>
                 <tr>
                   <th scope="row">
@@ -263,7 +263,7 @@
                       </div>
                     </div>
                   </th>
-                  <td>
+                  <td class="pt-5">
                     <button
                       onclick="removeItem()"
                       class="bg-transparent border-0 text-danger"
@@ -278,8 +278,8 @@
                       +
                     </button>
                   </td>
-                  <td>09.99$</td>
-                  <td>09.99$</td>
+                  <td class="pt-5">09.99$</td>
+                  <td class="pt-5">09.99$</td>
                 </tr>
               </tbody>
             </table>
@@ -325,9 +325,9 @@
                 <h5>40.99$$</h5>
               </div>
               <div class="">
-                <a href="">
-                  <button class="bg-danger rounded-pill border-0 chekout-btn">Check Out</button>
-                </a>
+             
+                  <button type="button" class="bg-danger rounded-pill border-0 chekout-btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">Check Out</button>
+               
               </div>
             </div>
           </div>
@@ -346,8 +346,36 @@
       </div>
     </footer>
     
-    
-    
+    <!--------------------------------------------- modal  --------------------------------------------->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <p class="text-white">Payment Mehtod</p>
+            <div class="dropdown">
+              <button class="btn d-flex justify-content-between cart-modal-dropdown-btn bg-transparent rounded-pill border-1 text-white dropdown-toggle " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                COD
+                <i class="fa fa-sort-desc" aria-hidden="true"></i>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+            <p class="text-white mt-2">
+              Reciever Name
+            </p>
+            <input type="text" class="form-control rounded-pill bg-transparent text-white" placeholder="">
+            <p class="text-white mt-2">
+              Adress
+            </p>
+            <textarea name="" class="form-control bg-transparent rounded-3 text-white" id="" cols="30" rows="5"></textarea>
+            <button type="button" class="bg-danger rounded-pill border-0 chekout-btn text-white">Confirm</button>
+          </div>
+        </div>
+      </div>
+    </div>
     
     <script>
       let itemCount = 0;
