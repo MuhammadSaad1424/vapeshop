@@ -283,23 +283,21 @@ tr {
   height: 50px;
   width: 50px;
   border-radius: 5px;
-  border: 1px solid silver;
+  /* border: 1px solid silver; */
 }
-
 
 .black-box {
   background-color: #000000;
   border: 1px solid #707070;
 }
 
-
 .red-box {
-  background-color: #FF4A4A;
-  border: 1px solid #FF4A4A;
+  background-color: #ff4a4a;
+  border: 1px solid #ff4a4a;
 }
 .green-box {
-  background-color: #03E086;
-  border: 1px solid #03E086;
+  background-color: #03e086;
+  border: 1px solid #03e086;
 }
 .product-details-hero-box {
   height: 120px;
@@ -316,20 +314,21 @@ tr {
   object-fit: cover;
 }
 
-.shopping-details-hr{
+.shopping-details-hr {
   width: 100%;
   height: 2px;
   color: silver;
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-  color: #FF5252 !important;
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #ff5252 !important;
   background-color: transparent !important;
   border-color: none;
   border-bottom: none;
 }
 
-.tab-content{
+.tab-content {
   border-top: 0px;
   /* border-radius: 10px; */
 }
@@ -338,13 +337,45 @@ tr {
   border-top-right-radius: 25px;
   padding: 10px 50px;
 }
-.nav-tabs .nav-link .active{
+.nav-tabs .nav-link .active {
   border-bottom: none;
 }
 
 .nav-tabs {
   border-bottom: 0px solid #dee2e6;
   border-radius: 20px;
+}
+
+.profile-hero-p{
+  /* padding: 0px 200px; */
+}
+
+.profile-pic{
+  height: 300px;
+  width: 300px;
+}
+.profile-pic img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 21px;
+}
+
+.profile-order-hr hr{
+  color:red;
+  width: 100px;
+  height: 3px;
+}
+
+.order-img-box{
+  width: 100px;
+  height: 100px;
+  background-color: #020100;
+  border-radius: 10px;
+}
+.order-img-box img{
+  width: 100%;
+  height: 100%;
 }
 @media (min-width: 576px) {
   .modal-dialog {
@@ -410,16 +441,16 @@ tr {
     height: 80px;
     width: 80px;
     border-radius: 10px;
-}
-.product-details-hero-box-picture {
-  height: 60px;
-  width: 60px;
-}
-.nav-tabs .nav-link {
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  padding: 10px 20px;
-}
+  }
+  .product-details-hero-box-picture {
+    height: 60px;
+    width: 60px;
+  }
+  .nav-tabs .nav-link {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 10px 20px;
+  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
